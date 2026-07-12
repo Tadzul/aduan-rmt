@@ -43,6 +43,7 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
+        'whatwg-fetch': path.resolve(__dirname, './src/empty.js'),
       },
     },
     server: {
